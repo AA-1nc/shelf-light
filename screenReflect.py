@@ -2,7 +2,6 @@ from mss import MSS
 from PIL import Image
 import numpy as np
 import time
-import json
 import colorsys
 from PySide6.QtCore import QThread
 from network import client

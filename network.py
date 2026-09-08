@@ -4,7 +4,8 @@ import json
 
 class client:
     def __init__(self):
-        self.url = 'ws://10.0.0.85:5000'
+        # Replace 'address' with your device's ip address
+        self.url = 'ws://address'
         self.ws = None
 
     def connect(self):
